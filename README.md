@@ -30,18 +30,18 @@ This project is a Microservice built using Flask and MongoDB to provide CRUD (Cr
 
 1. Clone the repository:
 
-**'git clone https://github.com/yourusername/CRUD_Flask_MongoDB.git'**
-'cd CRUD_Flask_MongoDB'
+  'git clone https://github.com/yourusername/CRUD_Flask_MongoDB.git'
+  'cd CRUD_Flask_MongoDB'
 
 2. Install dependencies:
 
-'pip install -r requirements.txt'
+  'pip install -r requirements.txt'
 
 3. Ensure that MongoDB is running on your local machine or you have connected to a cloud instance (e.g., MongoDB Atlas).
 
 ### Run the Flask application:
 
-'python app.py'
+  'python app.py'
 
 This will start the service, and it will be available at http://127.0.0.1:5000.
 
@@ -55,11 +55,11 @@ This will start the service, and it will be available at http://127.0.0.1:5000.
 
 * Request Body:
 
-{
-  "username": "john_doe",
-  "email": "john.doe@example.com",
-  "role": "user"
-}
+  {
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "role": "user"
+  }
 
 * Response: Returns the newly created user object with a success status.
 
@@ -77,10 +77,10 @@ This will start the service, and it will be available at http://127.0.0.1:5000.
 * Method: PUT
 * Request Body:
 
-{
-  "email": "new.email@example.com",
-  "role": "admin"
-}
+  {
+    "email": "new.email@example.com",
+    "role": "admin"
+  }
 
 * URL Params:
   * username: The username of the user to update.
@@ -98,25 +98,25 @@ This will start the service, and it will be available at http://127.0.0.1:5000.
 
 Here's the updated file structure for your project without the models directory:
 
-├── app.py                 # Main application entry point, defines the User model and routes
+  ├── app.py                 # Main application entry point, defines the User model and routes
 
-├── controllers/           # Contains route handlers for User CRUD operations
+  ├── controllers/           # Contains route handlers for User CRUD operations
 
-│   └── user_controller.py
+  │   └── user_controller.py
 
-├── services/              # Contains business logic for User CRUD
+  ├── services/              # Contains business logic for User CRUD
 
-│   └── crud_user_service.py
+  │   └── crud_user_service.py
 
-├── dto/                   # Contains Data Transfer Objects (DTOs)
+  ├── dto/                   # Contains Data Transfer Objects (DTOs)
 
-│   └── user.py
+  │   └── user.py
 
-├── requirements.txt       # List of required Python dependencies
+  ├── requirements.txt       # List of required Python dependencies
 
-├── README.md              # This README file
+  ├── README.md              # This README file
 
-└── .gitignore             # Git ignore file
+  └── .gitignore             # Git ignore file
 
 ## Running the Application
 
@@ -124,7 +124,7 @@ Here's the updated file structure for your project without the models directory:
 
 2. Run the Flask app:
 
-python app.py
+  'python app.py'
 
 The app should now be running at http://127.0.0.1:5000.
 
