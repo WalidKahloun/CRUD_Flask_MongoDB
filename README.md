@@ -71,7 +71,7 @@ This will start the service, and it will be available at http://127.0.0.1:5000.
   * username: The username of the user to retrieve.
 * Response: Returns user data if found or a 404 error if the user is not found.
 
-4. Update User
+3. Update User
 
 * URL: /update/{username}
 * Method: PUT
@@ -86,7 +86,7 @@ This will start the service, and it will be available at http://127.0.0.1:5000.
   * username: The username of the user to update.
 * Response: Returns the updated user object.
 
-6. Delete User
+4. Delete User
 
 * URL: /delete/{username}
 * Method: DELETE
