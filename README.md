@@ -56,8 +56,8 @@ This will start the service, and it will be available at http://127.0.0.1:5000.
 * Request Body:
 
   {
-    "username": "john_doe",
-    "email": "john.doe@example.com",
+    "username": "walid_kahloun",
+    "email": "wkahloun1@gmail.com",
     "role": "user"
   }
 
