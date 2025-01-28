@@ -30,18 +30,18 @@ This project is a Microservice built using Flask and MongoDB to provide CRUD (Cr
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/CRUD_Flask_MongoDB.git
-cd CRUD_Flask_MongoDB
+'git clone https://github.com/yourusername/CRUD_Flask_MongoDB.git'
+'cd CRUD_Flask_MongoDB'
 
 2. Install dependencies:
 
-pip install -r requirements.txt
+'pip install -r requirements.txt'
 
 3. Ensure that MongoDB is running on your local machine or you have connected to a cloud instance (e.g., MongoDB Atlas).
 
 ### Run the Flask application:
 
-python app.py
+'python app.py'
 
 This will start the service, and it will be available at http://127.0.0.1:5000.
 
