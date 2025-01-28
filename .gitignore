@@ -1,0 +1,22 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment directory
+venv/
+.env/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore dependencies
+*.egg-info/
